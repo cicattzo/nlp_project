@@ -10,7 +10,7 @@ Project outline:
   
   2.2. GPT-2 (Abstractive Summarization)
   
-  2.3. BERT (Extractive Summarization)
+  2.3. BERT (Extractive Summarization) https://pypi.org/project/bert-extractive-summarizer/
   
   2.4. Fine tuning with already pretrained models (Abstractive Summarization)
   
