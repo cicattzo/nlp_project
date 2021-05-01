@@ -8,10 +8,11 @@ Project outline:
 
   2.1. BERT (Abstractive Summarization)
   
-  4.2. GPT-2 (Abstractive Summarization)
+  2.2. GPT-2 (Abstractive Summarization)
   
-  6.3. BERT (Extractive Summarization)
+  2.3. BERT (Extractive Summarization)
   
-  8.4. Fine tuning with already pretrained models (Abstractive Summarization)
+  2.4. Fine tuning with already pretrained models (Abstractive Summarization)
+  
 3. Write Evaluation with BLEU and some other scores
 4. Write report (We need to write from 12 to 14 pages in ACL)
