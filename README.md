@@ -3,6 +3,8 @@ Advanced NLP Project
 
 Project outline:
 
+0. Data. BC3 - https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/bc3.html and another dataset from torch.load_data 
+
 1. Preprocessing - use https://colab.research.google.com/drive/1WIk2bxglElfZewOHboPFNj8H44_VAyKE?usp=sharing#scrollTo=3FO5ESocXvlK and https://github.com/dailykirt/ML_Enron_email_summary/blob/master/notebooks/Process_Emails.ipynb to write our own preprocessor
 2. Apply several models to the context of bodies, namely:
 
