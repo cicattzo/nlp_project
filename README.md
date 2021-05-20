@@ -1,20 +1,3 @@
-# nlp_project
-Advanced NLP Project
+# 6.864 Advanced Natural Language Processing : Abstractive Summarization of Email Text
 
-Project outline:
-
-0. Data. BC3 - https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/bc3.html and another dataset from torch.load_data 
-
-1. Preprocessing - use https://colab.research.google.com/drive/1WIk2bxglElfZewOHboPFNj8H44_VAyKE?usp=sharing#scrollTo=3FO5ESocXvlK and https://github.com/dailykirt/ML_Enron_email_summary/blob/master/notebooks/Process_Emails.ipynb to write our own preprocessor
-2. Apply several models to the context of bodies, namely:
-
-  2.1. BERT (Abstractive Summarization)
-  
-  2.2. GPT-2 (Abstractive Summarization)
-  
-  2.3. BERT (Extractive Summarization) https://pypi.org/project/bert-extractive-summarizer/
-  
-  2.4. Fine tuning with already pretrained models (Abstractive Summarization)
-  
-3. Write Evaluation with BLEU and some other scores
-4. Write report (We need to write from 12 to 14 pages in ACL)
+We demonstrate the use of Transfer Learning and Fine Tuning with state of the art pretrained transformer models, BERT and GPT2, for the task of Abstractive Summarization of Emails. There are two things that make this task difficult for NLP models. First, the text in emails is generally very different from the other corpora for summarization tasks, because it is partially conversational and often has a lot of acronyms, and there is much less data available for emails with annotated summaries. Second, for abstractive summarization the model needs to understand and retain the context of the email to generate a meaningful summary. Hence, we use pre-trained language models that have shown state of the art performance on several task and use transfer learning to improve them for email summarization. We compare our models with simple extractive summarization baselines and also show comparison between using transfer learning or applying the models directly; in each case we show that our approach beats the baselines even with limited training.
